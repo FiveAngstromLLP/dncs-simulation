@@ -11,7 +11,6 @@ from openmm.unit import kelvin, nano, pico
 
 folder = os.environ['DNCS_FOLDER']
 
-
 class DncsIntegrator:
     def __init__(self, config):
         self.config = config

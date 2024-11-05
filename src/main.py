@@ -1,4 +1,3 @@
-
 import os
 import toml
 import time
@@ -7,7 +6,6 @@ import shutil
 from typing import List
 from dataclasses import dataclass
 from integrator import DncsIntegrator, CleanUp, MDSimulation
-
 
 @dataclass
 class SimulationConfig:

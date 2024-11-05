@@ -1,0 +1,3 @@
+[submodule "dncs"]
+	path = dncs
+	url = https://github.com/FiveAngstromLLP/dncs.git
