@@ -1,0 +1,15 @@
+[simulation]
+moleculename = "YGGFM"
+sequence = "AAAAA"
+interface = "openmm"
+n_samples = 10
+temp = 300.0
+forcefield = ["amber99sb.xml", "amber14/tip3pfb.xml"]
+# device -> "CPU" | "CUDA" | "OpenCL"
+device = "CPU"
+solvent = 100
+steps = 5000
+gamma = 1.0
+dt = 0.002
+md_steps = 5000
+grid = 5
